@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--for count editText-->
+    <declare-styleable name="CountEditText">
+        <attr name="ce_maxLength" format="integer"/>
+        <attr name="ce_hint" format="string"/>
+        <attr name="ce_edit_text_size" format="dimension"/>
+        <attr name="ce_edit_text_color" format="color"/>
+        <attr name="ce_count_text_size" format="dimension"/>
+        <attr name="ce_countMode" format="enum">
+            <enum name="Remaining" value="1"></enum>
+            <enum name="Percentage" value="2"></enum>
+        </attr>
+    </declare-styleable>
+
+
+</resources>

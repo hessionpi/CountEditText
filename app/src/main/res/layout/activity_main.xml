@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.geek.hition.countedittext.MainActivity">
+
+    <com.geek.hition.countedittext.CountEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ce_edit_text_color="#63caf7"
+        app:ce_edit_text_size="@dimen/font_edit_size"
+        app:ce_count_text_size="@dimen/font_count_size"
+        app:ce_maxLength="80"
+        app:ce_countMode="Percentage"
+        app:ce_hint="请输入你要提交的问题"
+        />
+
+
+</RelativeLayout>
